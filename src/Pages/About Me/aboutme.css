@@ -1,0 +1,156 @@
+
+.about_div{
+    width: 50%;
+    text-align: left;
+    margin-left: 15px;
+    
+}
+
+.student{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(22, 145, 145);
+
+}
+.text_about{
+    font-size: 17px;
+    line-height: 1.65;
+    border-bottom: 1px dashed rgb(22, 145, 145);
+    padding-bottom: 20px;
+}
+
+.ul{
+    line-height: 1rem;
+    margin-bottom: 15px;
+    list-style: none;
+    border-bottom: 1px dashed rgb(22, 145, 145);
+    padding-bottom: 20px;
+}
+
+.li{
+    line-height: 1rem;
+    margin-bottom: 15px;
+
+}
+
+.span{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid rgb(22, 145, 145);
+    margin-right: 16px;
+    padding-bottom: 1px;
+    list-style: none;
+}
+
+.main{
+    min-height: 150vh;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.inner_content{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(180px,rgb(22, 145, 145),transparent 90%);
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid rgb(22, 145, 145);
+    margin-left: 140px;
+    margin-top: 120px;
+    animation: rotation 10s linear 1s infinite;
+}
+
+.first{
+    position: absolute;
+    top: -9%;
+    left: 41%;
+}
+
+.second{
+    position: absolute;
+    right: -8%;
+    top: 41.5%;
+}
+
+.third{
+    position: absolute;
+    bottom: -10%;
+    left: 41%;
+}
+
+.four{
+    position: absolute;
+    left: -8%;
+    top: 41%;
+}
+
+.service_wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@keyframes rotation {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+@media (max-width:1220px){
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .about_div{
+        width: 90%;
+        
+        
+    }
+    .service_wrapper{
+        
+        justify-content: left;
+        
+    }
+
+}
+
+@media (max-width:637px){
+    .service_wrapper{
+        width: 90%;
+    }
+    .animate{
+        width: 90%;
+    }
+}
+
+@media (max-width:610px){
+    .service_wrapper{
+        width: 70%;
+    }
+
+    .inner_content{
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width:540px){
+    .inner_content{
+        width: 320px
+    }
+}
+
+@media (max-width:470px){
+    .inner_content{
+        display: none;
+    }
+
+    .ul {
+        margin-left: -33px;
+    }
+}

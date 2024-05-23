@@ -1,0 +1,319 @@
+
+.main_main{
+    min-height: 164vh;
+}
+
+
+.for_texts_images{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    grid-row-gap: 115px;
+    margin-top: 30px;
+    
+    
+}
+
+.underline{
+    text-decoration: none;
+}
+
+.image0{
+    width: 370px;
+    height: 370px;
+    position: relative;
+}
+.image1{
+    width: 370px;
+    height: 370px;
+    position: relative;
+}
+.image2{
+    width: 370px;
+    height: 370px;
+    position: relative;
+}
+.image3{
+    width: 370px;
+    height: 370px;
+    position: relative;
+}
+
+
+
+.image_name0{
+    text-align: center;
+    display: none;
+    color: black;
+    
+
+}
+
+.image_name1{
+    text-align: center;
+    display: none;
+    color: black;
+    
+
+}
+.image_name2{
+    text-align: center;
+    display: none;
+    color: black;
+    
+    
+
+}
+.image_name3{
+    text-align: center;
+    display: none;
+    color: black;
+    
+
+}
+
+.visit0{
+    
+    width: 120px;
+    height: 40px;
+    color: rgb(22, 145, 145);
+    cursor: pointer;
+    
+
+    display: none;
+   
+}
+
+.visit1{
+    
+    width: 120px;
+    height: 40px;
+    color: rgb(22, 145, 145);
+    cursor: pointer;
+   
+    display: none;
+}
+
+.visit2{
+   
+    width: 120px;
+    height: 40px;
+    color: rgb(22, 145, 145);
+    cursor: pointer;
+   
+   
+    display: none;
+}
+
+.visit3{
+   text-decoration: none;
+    width: 120px;
+    height: 40px;
+    color: rgb(22, 145, 145);
+    cursor: pointer;
+    
+    display: none;
+}
+
+.for_images0{
+    width: 380px;
+    height: 380px;
+}
+.for_images1{
+    width: 380px;
+    height: 380px;
+}
+.for_images2{
+    width: 380px;
+    height: 380px;
+}
+.for_images3{
+    width: 380px;
+    height: 380px;
+}
+
+.for_images0:hover{
+
+    .image_name0{
+        display: block;
+        
+    }
+    
+    .visit0{
+        display: block;
+        
+        
+    }
+
+    .image0{
+        display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(22, 145, 145);
+
+    
+
+
+}
+
+.for_images1:hover{
+    .image_name1{
+        display: block;
+        
+    }
+    
+    .visit1{
+        display: block;
+        
+    }
+
+    .image1{
+        display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(22, 145, 145);
+
+    
+}
+
+.for_images2:hover{
+    .image_name2{
+        display: block;
+        
+    }
+    
+    .visit2{
+        display: block;
+        
+    }
+
+    .image2{
+        display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(22, 145, 145);
+
+    
+}
+
+.for_images3:hover{
+
+    .image_name3{
+        display: block;
+        
+    }
+    
+    .visit3{
+        display: block;
+        
+    }
+
+    .image3{
+        display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(22, 145, 145);
+
+    
+}
+
+.visit0:hover{
+    background-color: rgb(22, 145, 145);
+    color: black;
+}
+
+.visit1:hover{
+    background-color: rgb(22, 145, 145);
+    color: black;
+}
+
+.visit2:hover{
+    background-color: rgb(22, 145, 145);
+    color: black;
+}
+
+.visit3:hover{
+    background-color: rgb(22, 145, 145);
+    color: black;
+}
+
+
+
+
+
+@media (max-width:990px){
+    .for_texts_images{
+        grid-template-columns: auto;
+        width: 45%;
+    }
+}
+
+@media (max-width:720px){
+    .for_texts_images{
+        width: 56%;
+    }
+}
+
+@media (max-width:620px){
+    .for_texts_images{
+        width: 64%;
+    }
+}
+
+
+@media (max-width:560px){
+    .for_texts_images{
+        width: 75%;
+    }
+}
+
+@media (max-width:474px){
+    .for_texts_images{
+        width: 85%;
+    }
+}
+
+@media (max-width:430px){
+    .for_images0{
+        width: 95%;
+    }
+    .image0{
+        width: 100%;
+    }
+    .for_images1{
+        width: 95%;
+    }
+    .image1{
+        width: 100%;
+    }
+    .for_images2{
+        width: 95%;
+    }
+    .image2{
+        width: 100%;
+    }
+    .for_images3{
+        width: 95%;
+    }
+    .image3{
+        width: 100%;
+    }
+}
