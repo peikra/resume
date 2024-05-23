@@ -1,8 +1,11 @@
 import "./home.css"
 import resume from  "../../assets/Mikheil-Peikrishvili-Resume.pdf"
+
 const Home = ()=>{
+    
     return(
         <section className="section_home">
+            
             <div className="home-container">
                 <h1 className="home-text">
                     Hello,I'm Misho

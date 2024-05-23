@@ -28,6 +28,7 @@ function App() {
       
       <header className="App-header">
         <Navigation/>
+        
         <Publicroute/>
 
         </header>

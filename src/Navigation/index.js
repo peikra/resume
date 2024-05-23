@@ -41,6 +41,10 @@ const Navigation = ()=>{
 
       }
 
+      const hideMenu = () => {
+        setshow(false);
+      };
+
       return(
         
             <nav className="navigation">
@@ -58,7 +62,7 @@ const Navigation = ()=>{
                 <ul className={`for_items1 ${show ? "show" : ""}`}>
                     {navigation?.map((item,i)=>(
                         <li key={i}>
-                            <NavLink to={item.path} className="home1">{item.name}</NavLink>
+                            <NavLink onClick={hideMenu} to={item.path} className="home1">{item.name}</NavLink>
                         </li>
                     ))}
 
