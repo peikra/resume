@@ -61,7 +61,7 @@ const Navigation = ()=>{
 
                 <ul className={`for_items1 ${show ? "show" : ""}`}>
                     {navigation?.map((item,i)=>(
-                        <li key={i}>
+                        <li className="margintop" key={i}>
                             <NavLink onClick={hideMenu} to={item.path} className="home1">{item.name}</NavLink>
                         </li>
                     ))}
