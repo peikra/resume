@@ -27,7 +27,7 @@ const About = ()=>{
         },
         {
             label : "Email",
-            value : "peikrishvilimisho99@mail.com"
+            value : "peikrishvilimisho99@gmail.com"
         }
 
         
